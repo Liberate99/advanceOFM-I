@@ -57,7 +57,7 @@ def extractFeature(imagesDir,model):
     image_feature_normed = min_max_scaler.fit_transform(image_feature)
     image_feature_normed = pd.DataFrame(data=image_feature_normed.tolist())
     root_dir = os.path.dirname(os.path.abspath('.')) # 到项目根目录
-    image_feature_normed.to_csv(root_dir+'\\advance\outputs\image\\feature\\feature.csv')
+    image_feature_normed.to_csv(root_dir+'\\advance\outputs\\feature\\imageFeature.csv')
 
 
 
