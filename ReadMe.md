@@ -13,3 +13,10 @@ ProjectName
     └─ tests 测试代码       
         └─ test_main.py     
         └─ init.py      
+
+
+
+## 音频特征提取
+
+使用 `sound-net` 提取层 17
+

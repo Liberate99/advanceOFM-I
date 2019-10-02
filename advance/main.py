@@ -14,10 +14,11 @@ def main():
         print("Image feature has been extracted!")
 
     # 提取音频特征
-    # TODO
+    # 由 Sound-Net 提取
+
 
     # 特征融合
-    # TODO
+    #
 
     # 训练预测模型
     # TODO
