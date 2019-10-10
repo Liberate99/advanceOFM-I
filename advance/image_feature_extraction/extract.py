@@ -30,7 +30,7 @@ def importVGG():
     print("\nVGG-19:\n")
     print(core_model.summary())
     base_model.add(core_model)
-    output = keras.layers.Dense(512, activation='sigmoid')
+    output = keras.layers.Dense(1203, activation='sigmoid')
     base_model.add(output)
     print("\nbase_model:\n")
     print(base_model.summary())
