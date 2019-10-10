@@ -1,5 +1,5 @@
-./advance/outputs/feature/*.csv
+/advance/outputs/feature
 
-./advance/logs
+/advance/logs
 
 
