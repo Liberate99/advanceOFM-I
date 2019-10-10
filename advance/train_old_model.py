@@ -39,7 +39,7 @@ callbacks_list = [
 
     # 训练自动更改学习率
     keras.callbacks.ReduceLROnPlateau(
-        monitor='val_mean_squared_error',
+        monitor='loss',
         factor=0.2,
         patience=5,
         verbose=1,
@@ -50,9 +50,9 @@ callbacks_list = [
 
     # 当被监测的数量不再提升，则停止训练
     keras.callbacks.EarlyStopping(
-        monitor='val_mean_squared_error',
+        monitor='loss',
         min_delta=0,
-        patience=30,
+        patience=50,
         verbose=1,
         mode='min',
         baseline=None,
