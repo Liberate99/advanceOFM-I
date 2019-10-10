@@ -1,1 +1,7 @@
 outputs/feature/
+
+logs/
+
+
+
+*.csv
